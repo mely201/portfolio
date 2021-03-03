@@ -1,10 +1,9 @@
 {
    "es":{
-       "home":"Casa",
-       "about":"Acerca ",
-       "services":"Servicios",
-       "Works":"Trabajos",
-       "testimonial":"Testimonios",
+       "home":"Inicio",
+       "about":"Sobre Mi ",
+       "services":"Casos de Éxito",
+       "Works":"Intereses/Publicaciones",
        "contact":"Contacto",
        "Languages":"Idiomas",
        "Download":"Descargar CV",
@@ -46,9 +45,8 @@
    "en":{
     "home":"Home",
     "about":"About me ",
-    "services":"Services",
-    "Works":"Works",
-    "testimonial":"testimonial",
+    "services":"Case of success",
+    "Works":"Interests/Publications",
     "contact":"Contact",
     "Languages":"Languages",
     "Download":"Download CV",
