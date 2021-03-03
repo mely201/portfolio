@@ -1,9 +1,7 @@
 {
    "es":{
        "home":"Inicio",
-       "about":"Sobre Mi ",
-       "services":"Casos de Éxito",
-       "Works":"Intereses/Publicaciones",
+       "Project":"Proyectos ",
        "contact":"Contacto",
        "Languages":"Idiomas",
        "Download":"Descargar CV",
@@ -44,9 +42,7 @@
    },
    "en":{
     "home":"Home",
-    "about":"About me ",
-    "services":"Case of success",
-    "Works":"Interests/Publications",
+    "Project":"Project ",
     "contact":"Contact",
     "Languages":"Languages",
     "Download":"Download CV",
