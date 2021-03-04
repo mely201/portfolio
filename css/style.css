@@ -121,7 +121,7 @@ section{
      position: relative;
      display: inline-block;
      margin: 0 15px;
-     font-size: 20px;
+     font-size: 17px;
      color: #fff;
      text-decoration: none;
  }
@@ -261,7 +261,7 @@ header ul.lang-menu:hover ul {
 /*services*/
 .services
 {
-    background: #2e86de;
+    background: #9477c4; 
 
 }
 .heading.white
