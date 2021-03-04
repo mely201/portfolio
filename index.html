@@ -16,7 +16,8 @@
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul  class="menu">
             <li><a class="lang" key="home" href="#home" onclick="toggleMenu();">Home</a></li> 
-            <li><a  class="lang" key="project" href="#Project" onclick="toggleMenu();">Project</a></li>     
+            <li><a  class="lang" key="about" href="#about" onclick="toggleMenu();">About</a></li>     
+            <li><a  class="lang" key="project" href="#Project" onclick="toggleMenu();">Project</a></li> 
             <li><a class="lang" key="contact" href="#contact" onclick="toggleMenu();">Contact</a></li>
             <ul class="lang-menu">
                 <li><a  href="#" class="selected-lang lang" key="Languages">Languages</a>
@@ -30,17 +31,38 @@
     </header>
     <section class="banner" id="home">
         <div class="textBx scroll-banner">
-            <h2 class="lang" key="title1">Hello, I'm <br><span>Melissa Orellana.</span></h2>
+            <h2 class="lang" key="title1">Hello, I'm <br><br> MeliOrellana.</h2>
             <h3 class="lang" key="title2">I'm a Front End Web Develover</h3>
             <a href="./pdf/GUIA DE TRABAJO CREANDO MI PORTAFOLIO PROFESIONAL.pdf" class="btn lang" key="Download" download="CV.pdf">Download CV</a>  <!--La probieda de target="_blank" es para abrir en una pestaña nueva-->
-            <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/estefan%C3%ADa-orellana-6a3390208/" target="_blank" class="icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/mely201" target="_blank" class="icon"><i class="fab fa-github"></i></a>
             
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading scroll-heading">
+            <h2 class="lang" key="title3">About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50 scroll-contentBx">
+                <h3 class="lang" key="title4">I'm a Front End Web Develover.</h3>
+                <p class="lang" key="title5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Eaque nulla nam similique mollitia. Facere fugit voluptas 
+                     debitis numquam in, labore fugiat officia vero totam qui perspiciatis
+                      harum nam quo nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Magni, nostrum inventore cupiditate ullam officiis voluptatum cumque accusantium quas itaque eaque reiciendis aperiam suscipit quis laboriosam illo explicabo odit reprehenderit debitis.illo explicabo odit reprehenderit debitis illo explicabo <br><br>Lorem ipsum dolor sit amet consectetur, 
+                      adipisicing elit. Dolorem impedit recusandae in perferendis, ipsa eligendi. 
+                      Eum magni neque, rem, eaque consequuntur repellendus praesentium reprehenderit 
+                      earum incidunt accusamus, perferendis quas iusto.</p>
+            </div>
+            <div class="w50 scroll-img">
+                <img src="./img/foto.jfif" class="img">
+            </div>
         </div>
     </section>
     <section class="work scroll-work" id="Project">
         <div class="heading ">
-            <h2 class="lang" key="title20">Our Latest Work</h2>
+            <h2 class="lang" key="title20">Projects</h2>
             <p class="lang" key="title21">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
@@ -48,18 +70,22 @@
                 <img src="./img/product1.jpg" alt="">
             </div>
             <div class="workBx">
-                <img src="./img/product2.jpg" alt="">
+                <img src="./img/product2.png" alt="">
             </div>
-            <div class="workBx">
-                <img src="./img/product3.jpg" alt="">
-            </div>
-            <div class="workBx">
-                <img src="./img/product4.jpg" alt="">
-            </div>
+            <!-- 
+                <div class="workBx">
+                    <img src="./img/product3.jpg" alt="">
+                </div>
+                <div class="workBx">
+                    <img src="./img/product4.jpg" alt="">
+                </div>
+            -->
         </div>
-        <div class="heading">
+        <!--
+            <div class="heading">
             <a href="#" class="btn lang"  key="title22" >View More</a>
          </div>
+         -->
     </section>
     <section class="contact scroll-heading" id="contact">
         <div class="heading white">

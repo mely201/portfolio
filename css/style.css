@@ -15,8 +15,7 @@ section{
 {
     position: relative;
     min-height: 100vh;
-    background: #f1cf5e;
-
+    background-image:  url(../img/banner1.png);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -122,6 +121,7 @@ section{
      position: relative;
      display: inline-block;
      margin: 0 15px;
+     font-size: 20px;
      color: #fff;
      text-decoration: none;
  }
@@ -209,7 +209,7 @@ header ul.lang-menu ul li a:before {
 }
 
 .es:before {
-    background-image: url(https://www.countryflags.io/mx/flat/32.png);
+    background-image: url(https://www.countryflags.io/sv/flat/32.png);
 }
 
 .en:before {
@@ -361,7 +361,7 @@ color: #fff;
 /*--Contact*/
 .contact
 {
-    background: #2e86de; 
+    background: #9477c4; 
 }
 .formBx
 {
