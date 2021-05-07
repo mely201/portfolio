@@ -282,7 +282,7 @@ header ul.lang-menu:hover ul {
 /*services*/
 .services
 {
-    background: #9477c4; 
+    background: #c1aae7; 
 
 }
 .heading.white
@@ -309,7 +309,7 @@ color: #fff;
 }
 .services .content .servicesBx:hover
 {
-    background: #65b0ee;
+    background: #69b1ec;
 }
 .services .content .servicesBx img
 {
@@ -382,7 +382,7 @@ color: #fff;
 /*--Contact*/
 .contact
 {
-    background: #9477c4; 
+    background: #ba9de7; 
 }
 .formBx
 {
