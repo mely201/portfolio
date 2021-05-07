@@ -11,6 +11,27 @@
 section{
     padding: 100px;
 }
+
+/* ------------- 
+ Variables 
+ ---------------- */
+ :root{
+    --main-color: #968d8d;
+    --white: #363434;
+    
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
 .banner
 {
     position: relative;
@@ -288,7 +309,7 @@ color: #fff;
 }
 .services .content .servicesBx:hover
 {
-    background: #2196f3;
+    background: #65b0ee;
 }
 .services .content .servicesBx img
 {
