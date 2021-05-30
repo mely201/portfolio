@@ -40,7 +40,8 @@
       "title32": "Dirección",
       "title33": "Teléfono",
       "title34": "Correo electrónico",
-      "title35": "Envia un mensaje"
+      "title35": "Envia un mensaje",
+      "Testimonials": "Testimoniales"
    },
    "en": {
       "home": "Home",
@@ -83,6 +84,7 @@
       "title32": "Address",
       "title33": "Phome",
       "title34": "Email",
-      "title35": "Message Me"
+      "title35": "Message Me",
+      "Testimonials": "Testimonials"
    }
 }

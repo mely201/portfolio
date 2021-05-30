@@ -11,23 +11,28 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="./js/scrollreveal.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="./css/styleGlider.css">
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo">Epiphany</a>
+        <a href="#" class="logo"><img src="./img/logo" height="80px" width="80px"
+                style="background-color: transparent;" /></a>
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="menu">
             <li><a class="lang" key="home" href="#home" onclick="toggleMenu();">Home</a></li>
             <li><a class="lang" key="about" href="#about" onclick="toggleMenu();">About</a></li>
-            <li><a class="lang" key="project" href="#Project" onclick="toggleMenu();">Project</a></li>
             <li><a class="lang" key="publications" href="#publications" onclick="toggleMenu();">publications</a></li>
+            <li><a class="lang" key="project" href="#Project" onclick="toggleMenu();">Project</a></li>
+            <li><a class="lang" key="Testimonials" href="#Testimonials" onclick="toggleMenu();">Testimonials</a></li>
             <li><a class="lang" key="contact" href="#contact" onclick="toggleMenu();">Contact</a></li>
             <ul class="lang-menu">
                 <li><a href="#" class="selected-lang lang" key="Languages">Languages</a>
                     <ul>
-                        <li><a href="#" class="es translate" id="es">Spanish</a></li>
-                        <li><a href="#" class="en translate" id="en">English</a></li>
+                        <li><span class="es translate" id="es">Spanish</span></li>
+                        <li><span class="en translate" id="en">English</span></li>
                     </ul>
                 </li>
             </ul>
@@ -35,10 +40,10 @@
     </header>
     <section class="banner" id="home">
         <div class="textBx scroll-banner">
-            <h2 class="lang" key="title1">Hello, I'm <br><br> MeliOrellana.</h2>
+            <h2 class="lang" key="title1">Hello, I'm <br><br> Meli Orellana.</h2>
             <h3 class="lang" key="title2">I'm a Front End Web Develover</h3>
             <a href="./pdf/Melissa Orellana.pdf" class="btn lang" key="Download" download="CV.pdf">Download CV</a>
-            <!--La probieda de target="_blank" es para abrir en una pestaña nueva-->
+            <!--La probieda de target="_blank" es para abrir el enlace  en una pestaña nueva-->
             <a title="LinkedIn" href="https://www.linkedin.com/in/estefan%C3%ADa-orellana-6a3390208/" target="_blank"
                 class="icon"><i class="fab fa-linkedin-in"></i></a>
             <a title="GitHub" href="https://github.com/mely201" target="_blank" class="icon"><i
@@ -72,9 +77,10 @@
     <section class="services scroll-services" id="publications">
         <div class="heading white">
             <h2 class="lang" key="title6">Our Services</h2>
-            <p class="lang" key="title7"> A continuación te mostraré algunos documentos o ensayos que he escrito para proyectos. </p>
-           
-            
+            <p class="lang" key="title7"> A continuación te mostraré algunos documentos o ensayos que he escrito para
+                proyectos. </p>
+
+
         </div>
         <div class="content">
             <div class="servicesBx">
@@ -138,16 +144,154 @@
                 <h2 class="lang" key="title25">Web Development</h2>
                 <p class="lang" key="title28">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
-            <!--
-                <div class="workBx">
-                    <img src="./img/product4.png" alt="">
-                </div>  
+
         </div>
-            <div class="heading">
-            <a href="#" class="btn lang"  key="title22" >View More</a>
-         </div>
-         -->
+
     </section>
+
+    <!--### TESTIMONIOS ###-->
+    <section class="work scroll-work" id="Testimonials">
+        <div class="heading ">
+            <h2 class="lang" key="Testimonials">Testimonials</h2>
+            <p class="lang" key="title19">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class=" container__carousel">
+
+                <div class="carousel__container">
+                    <button aria-label="Previus" class="carousel__previus">
+                        <i class='fas fa-chevron-left fa-3x' ></i>
+                    </button>
+                    <div class="carousel__list">
+
+                        <div class="carousel__item">
+                            <div class="containeer">
+                                <div class="card__container">
+                                    <div class="header">
+                                        <!-- IMAGEN Y NOMBRE DE LA PERSONA -->
+                                        <span> <img src="./assets/img/Arguera.jpg" /></span>
+                                        <h3>Roberto Arguera</h3>
+
+                                    </div>
+                                    <div class="description">
+                                        <p>
+                                            <!-- DESCRIPCION (AQUI PONDRAS EL TESTIMONIO EN EL ARCHIVO JSON DONDE
+                                                ESTAN LAS COSAS DE LOS IDIOMAS Y SOLO AGREGAS LA COSA CON LOS NOMOBRES
+                                                 DE LOS QUE TE DIERON EL TESTIMONIO <3) -->
+                                            <box-icon name='right-arrow' size="1rem"></box-icon>
+                                            <span class="lang" key="roberto">
+
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel__item">
+                            <div class="containeer">
+                                <div class="card__container">
+
+                                    <div class="header">
+                                        <span> <img src="./assets/img/tania.jpeg"
+                                                style="height: 200px; width: fit-content;" /></span>
+                                        <h3>Tania Bonilla</h3>
+                                    </div>
+
+                                    <div class="description">
+                                        <p>
+                                            <box-icon name='right-arrow' size="1rem"></box-icon>
+                                            <span class="lang" key="tania">
+
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel__item">
+                            <div class="containeer">
+                                <div class="card__container">
+
+                                    <div class="header">
+                                        <span> <img src="./assets/img/kathia_black_white.jpeg" /></span>
+                                        <h3>Kathia Berrios</h3>
+                                    </div>
+
+                                    <div class="description">
+
+                                        <p>
+                                            <box-icon name='right-arrow' size="1rem"></box-icon>
+                                            <span class="lang" key="kathia">
+
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel__item">
+                            <div class="containeer">
+                                <div class="card__container">
+
+                                    <div class="header">
+                                        <span> <img src="./assets/img/gerson.png" /></span>
+                                        <h3>Gerson Melendez</h3>
+                                    </div>
+
+                                    <div class="description">
+
+                                        <p>
+                                            <box-icon name='right-arrow' size="1rem"></box-icon>
+                                            <span class="lang" key="gerson">
+
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel__item">
+                            <div class="containeer">
+                                <div class="card__container">
+
+                                    <div class="header">
+                                        <span> <img src="./assets/img/Andrea.jpeg" /></span>
+                                        <h3>Andrea Cabañas</h3>
+                                    </div>
+
+                                    <div class="description">
+
+                                        <p>
+                                            <box-icon name='right-arrow' size="1rem"></box-icon>
+                                            <span class="lang" key="andrea">
+
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button aria-label="Next" class="carousel__next">
+                        <i class='fas fa-chevron-right fa-3x'></i>
+                    </button>
+                </div>
+
+                <div role="tablist" class="carousel__indicator"></div>
+            </div>
+        </div>
+
+    </section>
+
 
     <section class="contact scroll-heading" id="contact">
         <div class="heading white">
@@ -197,8 +341,10 @@
     <div class="copyright">
         <p>copyright © 2021 Melissa Orellana. All Right Reserved</p>
     </div>
-    <script src="./js/app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="./js/configGlider.js"></script>
+    <script src="./js/app.js"></script>
     <script src="./js/Languages/Languages.js"></script>
     <script src="./js/animations.js"></script>
 </body>
