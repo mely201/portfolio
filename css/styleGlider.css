@@ -1,144 +1,91 @@
 .carousel__container {
-    position: relative;
-    margin:50px
-  
-  }
-  
-  .carousel__previus,
-  .carousel__next {
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 20px;
-    border: none;
-    top: calc(50% - 35px);
-    cursor: pointer;
-    line-height: 30px;
-    text-align: center;
-    background: none;
-    color: blue;
-    opacity: 20%;
-  }
-  
-  .carousel__previus:hover,
-  .carousel__next:hover {
-    opacity: 100%;
-  }
-  
-  .carousel__previus {
-    left: -90px;
-  }
-  
-  .carousel__next {
-    right: -30px;
-  }
-  
-  .carousel__list {
-    overflow: hidden;
-  }
-  .carousel {
-    padding: "50px";
-  }
-  .container__carousel {
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-  }
-  
-  .carousel__item {
-    text-align: center;
-  }
-  
-  .carousel__indicator .glider-dot {
-    display: block;
-    width: 30px;
-    height: 4px;
-    background: #282828;
-    opacity: 0.2;
-    border-radius: 0;
-  }
-  
-  .carousel__indicator .glider-dot:hover {
-    opacity: 0.5;
-  }
-  
-  .carousel__indicator .glider-dot.active {
-    opacity: 1;
-  }
-  
-  .active::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: transparent;
-  }
-  
-  @media (max-width: 800px) {
-    .carousel__previus,
-    .carousel__next {
-      display: none;
-    }
-  }
+	position: relative;
+	margin: 50px;
+}
 
-  /* ### card ### */
-  /* CARDS*/
+.carousel__previus,
+.carousel__next {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: blue;
+	opacity: 20%;
+}
 
-.containeer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-  
-    padding: 5px;
-    border-radius: 3px;
-    filter: drop-shadow(0 0 0.15rem #282828);
-  }
-  
-  .card__container {
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: #fbfbfb;
-    border-radius: 3px;
-    box-shadow: 3px 3px 6px solid #282828;
-    padding: 20px;
-  }
-  
-  .header {
-    border-right: 1px solid #ddd;
-    padding: 10px;
-    width: 50%;
-  
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-  }
-  
-  .description {
-    padding: 10px;
-    text-align: justify;
-    background: #fbfbfb;
-    margin: auto;
-  }
-  
-  .header .description {
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .header span {
-    position: relative;
-    display: block;
-    justify-content: center;
-  }
-  .header span img {
-    border-radius: 100%;
-    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
-    margin: 20px 1px;
-    transition: 0.2s;
-  }
-  .header span img:hover {
-    border-radius: 0 0 0 12px rgba(0, 0, 0, 0.1);
-  }
+.carousel__previus:hover,
+.carousel__next:hover {
+	opacity: 100%;
+}
+
+.carousel__previus {
+	left: -90px;
+}
+
+.carousel__next {
+	right: -30px;
+}
+
+.carousel__list {
+	overflow: hidden;
+}
+.carousel {
+	padding: "50px";
+}
+.container__carousel {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+.carousel__item {
+	text-align: center;
+}
+
+.carousel__indicator .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #282828;
+	opacity: 0.2;
+	border-radius: 0;
+}
+
+.carousel__indicator .glider-dot:hover {
+	opacity: 0.5;
+}
+
+.carousel__indicator .glider-dot.active {
+	opacity: 1;
+}
+
+.active::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0.18rem;
+	left: 0;
+	top: 2rem;
+	background-color: transparent;
+}
+
+@media (max-width: 800px) {
+	.carousel__previus,
+	.carousel__next {
+		display: block;
+	}
+	.carousel__previus {
+		padding: 40px;
+		margin-left: auto;
+	}
+	.carousel__next {
+		padding: 40px;
+		margin-right: auto;
+	}
+}
