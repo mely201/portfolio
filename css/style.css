@@ -98,6 +98,11 @@ header {
 	align-items: center;
 	transition: 0.5s;
 }
+/* .header > span > img {
+	display: block;
+	width: 50%;
+	height: 50%;
+} */
 header.sticky {
 	background: #fff;
 	padding: 20px 100px;
