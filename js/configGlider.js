@@ -4,7 +4,7 @@ window.addEventListener("load", (e) => {
   new Glider(document.querySelector(".carousel__list"), {
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
+    draggable: false,
     dots: document.querySelector(".carousel__indicator"),
     arrows: {
       prev: document.querySelector(".carousel__previus"),

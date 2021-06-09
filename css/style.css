@@ -294,6 +294,9 @@ img {
 	font-weight: 600;
 }
 /*--- work  ---*/
+.scroll-testimonials {
+	background-color: #ba9de7;
+}
 .work .content {
 	display: flex;
 	justify-content: space-between;
@@ -309,7 +312,7 @@ img {
 
 /*-- testimonial --*/
 .testimonial {
-	background: #f7f7f7;
+	background: #ba9de7;
 }
 .testimonial .content {
 	display: flex;
@@ -342,7 +345,11 @@ img {
 }
 /*--Contact*/
 .contact {
-	background: #ba9de7;
+	background: #fbfbfb;
+}
+.boxings {
+	box-shadow: 0 5px 20px rgb(0, 0, 0, 0.1);
+	padding: 20px;
 }
 .formBx {
 	min-width: 60%;
@@ -353,7 +360,6 @@ img {
 }
 .formBx form h3,
 .contactInfo h3 {
-	color: #fff;
 	font-size: 20px;
 	font-weight: 500;
 	margin-bottom: 10px;
@@ -365,8 +371,8 @@ img {
 	font-size: 16px;
 	border: none;
 	outline: none;
-	background: #2c3e50;
-	color: #fff;
+	background: #d4d4d4;
+	color: #282828;
 	resize: none;
 }
 .formBx form textarea {
@@ -378,15 +384,17 @@ img {
 }
 .formBx form input[type="submit"] {
 	max-width: 100px;
-	background: #2c3e50;
+	background: #d4d4d4;
 	cursor: pointer;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 .contactInfo {
 	min-width: 40%;
+	color: #282828;
 }
 .contactInfoBox {
+	color: #282828;
 	position: relative;
 }
 
@@ -398,7 +406,7 @@ img {
 .contactInfoBox .box .icon {
 	min-width: 40px;
 	padding-top: 4px;
-	color: #fff;
+	color: #282828;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -408,7 +416,7 @@ img {
 	display: flex;
 	margin-left: 20px;
 	font-size: 16px;
-	color: #fff;
+	color: #282828;
 	flex-direction: column;
 	font-weight: 600;
 }
